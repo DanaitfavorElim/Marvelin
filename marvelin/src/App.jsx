@@ -419,7 +419,7 @@ function App() {
             <div>
               <h5 className="text-lg font-semibold mb-4">Contact</h5>
               <div className="space-y-2 text-gray-400">
-                <p>China: +86 189 6938 5282</p>
+                <p onClick={handleScrollToContact} className="cursor-pointer">China: +86 189 6938 5282</p>
                 <p>Dubai: +971 55 110 1231</p>
                 <p>Available on WhatsApp & WeChat</p>
               </div>
