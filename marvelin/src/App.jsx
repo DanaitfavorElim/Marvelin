@@ -141,7 +141,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center space-x-3">
-              <Ship className="w-10 h-10 text-blue-600" />
+              <img src="/Marvlin-logo.png" alt="Marvel In Company Limited Logo" className="w-10 h-10" /> 
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Marvel In Company Limited</h1>
                 <p className="text-sm text-gray-600">Global Shipping Solutions</p>
