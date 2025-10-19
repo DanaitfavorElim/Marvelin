@@ -96,27 +96,27 @@ function App() {
       description: "Expert product sourcing from reliable Chinese manufacturers with quality assurance."
     },
     {
-      icon: <Package className="w-8 h-8" />,
+      icon: <Package className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Purchasing",
       description: "Professional procurement services with competitive pricing and quality control."
     },
     {
-      icon: <Warehouse className="w-8 h-8" />,
+      icon: <Warehouse className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Warehousing",
       description: "Secure storage facilities in Yiwu with inventory management and consolidation services."
     },
     {
-      icon: <Shield className="w-8 h-8" />,
+      icon: <Shield className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Quality Control",
       description: "Comprehensive quality inspection and testing to ensure product standards."
     },
     {
-      icon: <Ship className="w-8 h-8" />,
+      icon: <Ship className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Shipping",
       description: "Global shipping solutions to Africa, Asia, North America, South America, Europe, and Australia."
     },
     {
-      icon: <FileText className="w-8 h-8" />,
+      icon: <FileText className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Documentation",
       description: "Complete shipping documentation, customs clearance, and regulatory compliance."
     }
