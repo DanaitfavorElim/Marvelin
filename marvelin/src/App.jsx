@@ -45,6 +45,9 @@ function App() {
   const handleScrollToContact = () => {
     document.getElementById("contact-us-section").scrollIntoView({ behavior: "smooth" });
   };
+  const handleScrollToServices = () => {
+    document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -409,11 +412,11 @@ function App() {
             <div>
               <h5 className="text-lg font-semibold mb-4">Services</h5>
               <ul className="space-y-2 text-white">
-                <li>Sourcing & Purchasing</li>
-                <li>Warehousing</li>
-                <li>Quality Control</li>
-                <li>Global Shipping</li>
-                <li>Documentation</li>
+                <li onClick={handleScrollToServices} className="cursor-pointer">Sourcing & Purchasing</li>
+                <li onClick={handleScrollToServices} className="cursor-pointer">Warehousing</li>
+                <li onClick={handleScrollToServices} className="cursor-pointer">Quality Control</li>
+                <li onClick={handleScrollToServices} className="cursor-pointer">Global Shipping</li>
+                <li onClick={handleScrollToServices} className="cursor-pointer">Documentation</li>
               </ul>
             </div>
             <div>
