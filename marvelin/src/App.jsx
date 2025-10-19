@@ -93,7 +93,7 @@ function App() {
   }
 
   const services = [
-    { section id="services",
+    { 
       icon: <Search className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Sourcing",
       description: "Expert product sourcing from reliable Chinese manufacturers with quality assurance."
@@ -191,7 +191,7 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-white">
+      < section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h3>
