@@ -257,7 +257,7 @@ function App() {
                     <div className="flex flex-wrap gap-2">
                       <a href="tel:+971551101231"><Badge variant="outline">Call</Badge></a>
                       <a href="https://wa.me/971551101231" target="_blank" rel="noopener noreferrer"><Badge variant="outline">WhatsApp</Badge></a>
-                      <a href="weixin://dl/chat?971551101231" target="_blank" rel="noopener noreferrer"><Badge variant="outline">WeChat</Badge></a>
+                      <a href="https://u.wechat.com/kI4ZUUbJJk7wu-aTxURdJOE?s=2" target="_blank" rel="noopener noreferrer"><Badge variant="outline">WeChat</Badge></a>
                     </div>
                   </CardContent>
                 </Card>
