@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input.jsx'
 import { Textarea } from '@/components/ui/textarea.jsx'
 import { Label } from '@/components/ui/label.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
-import logo from '@/assets/marvlin-logo.png'
+import { logo } from '@/assets/marvlin-logo.png'
 import { 
   Ship, 
   Globe, 
