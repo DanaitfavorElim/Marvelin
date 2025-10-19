@@ -164,7 +164,7 @@ function App() {
           <h2 className="text-5xl font-bold text-yellow-400 mb-6">
             Connecting China to the World
           </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
             With over 12 years of experience and 1000+ satisfied clients, we provide comprehensive 
             shipping solutions from China to every corner of the globe.
           </p>
