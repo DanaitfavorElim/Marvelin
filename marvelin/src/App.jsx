@@ -91,7 +91,7 @@ function App() {
 
   const services = [
     {
-      icon: <Search className="w-8 h-8" />,
+      icon: <Search className="w-8 h-8 text-[#8B1A1A]" />,
       title: "Sourcing",
       description: "Expert product sourcing from reliable Chinese manufacturers with quality assurance."
     },
