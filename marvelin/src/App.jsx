@@ -137,25 +137,15 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Header */}
-     <header className="bg-white shadow-lg">
+      <header className="bg-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-start sm:items-center py-6 gap-4">
+          <div className="flex justify-between items-center py-6">
             <div className="flex items-center space-x-3">
               <img src="/Marvlin-logo.png" alt="Marvel In Company Limited Logo" className="w-10 h-10" /> 
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Marvel In Company Limited</h1>
                 <p className="text-sm text-gray-600">Global Shipping Solutions</p>
               </div>
-            </div>
-            <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
-              <Badge variant="secondary" className="flex items-center space-x-1">
-                <Clock className="w-4 h-4" />
-                <span>12+ Years</span>
-              </Badge>
-              <Badge variant="secondary" className="flex items-center space-x-1">
-                <Users className="w-4 h-4" />
-                <span>1000+ Clients</span>
-              </Badge>
             </div>
           </div>
         </div>
