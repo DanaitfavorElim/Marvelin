@@ -177,10 +177,10 @@ function App() {
             ))}
           </div>
           <div className="flex justify-center space-x-4">
-            <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500" onClick={handleScrollToContact}>
+            <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-[#8B1A1A]" onClick={handleScrollToContact}>
               Get Quote
             </Button>
-            <Button size="lg" variant="outline" onClick={handleScrollToContact}>
+            <Button size="lg" variant="outline" className="text-[#8B1A1A]" onClick={handleScrollToContact}>
               Learn More
             </Button>
           </div>
