@@ -402,13 +402,13 @@ function App() {
                 <Ship className="w-8 h-8 text-blue-400" />
                 <h4 className="text-xl font-bold">Marvel In Company Limited</h4>
               </div>
-              <p className="text-gray-400">
+              <p className="text-white">
                 Your trusted partner for global shipping solutions from China to the world.
               </p>
             </div>
             <div>
               <h5 className="text-lg font-semibold mb-4">Services</h5>
-              <ul className="space-y-2 text-gray-400">
+              <ul className="space-y-2 text-white">
                 <li>Sourcing & Purchasing</li>
                 <li>Warehousing</li>
                 <li>Quality Control</li>
@@ -418,14 +418,14 @@ function App() {
             </div>
             <div>
               <h5 className="text-lg font-semibold mb-4">Contact</h5>
-              <div className="space-y-2 text-gray-400">
+              <div className="space-y-2 text-white">
                 <p onClick={handleScrollToContact} className="cursor-pointer">China: +86 189 6938 5282</p>
                 <p onClick={handleScrollToContact} className="cursor-pointer">Dubai: +971 55 110 1231</p>
                 <p onClick={handleScrollToContact} className="cursor-pointer">Available on WhatsApp & WeChat</p>
               </div>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <div className="border-t border-white mt-8 pt-8 text-center text-white">
             <p>&copy; 2024 Marvel In Company Limited. All rights reserved.</p>
           </div>
         </div>
