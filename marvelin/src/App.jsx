@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input.jsx'
 import { Textarea } from '@/components/ui/textarea.jsx'
 import { Label } from '@/components/ui/label.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
+import { logo } from '@src/assets/marvlin-logo.png'
 import { 
   Ship, 
   Globe, 
@@ -402,7 +403,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <Ship className="w-8 h-8 text-blue-400" />
+                <img src={logo} alt="Marvel In Company Limited" className="w-8 h-8" />  
                 <h4 className="text-xl font-bold">Marvel In Company Limited</h4>
               </div>
               <p className="text-white">
