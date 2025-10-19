@@ -170,14 +170,14 @@ function App() {
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             {regions.map((region, index) => (
-              <Badge key={index} variant="outline" className="text-lg py-2 px-4">
+              <Badge key={index} variant="outline" className="text-lg py-2 px-4 text-white">
                 <span className="mr-2">{region.flag}</span>
                 {region.name}
               </Badge>
             ))}
           </div>
           <div className="flex justify-center space-x-4">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={handleScrollToContact}>
+            <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500" onClick={handleScrollToContact}>
               Get Quote
             </Button>
             <Button size="lg" variant="outline" onClick={handleScrollToContact}>
